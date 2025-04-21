@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Nesting a List -->
+
+<ul>
+    <li>first item</li>
+    <li>
+        second item
+        <!-- Look, the closing </li> tag is not placed here! -->
+        <ul>
+            <li>second item first subitem</li>
+            <li>
+                second item second subitem
+            <!-- Same for the second nested unordered list -->
+            <ul>
+                <li>second item second subitem first sub-subitem</li>
+                <li>second item second subitem second sub-subitem</li>
+                <li>second item second subitem third sub-sub-item</li>
+            </ul>
+        </li>
+        <!-- Closing </li> tag for the li that contains the third unordered list -->
+        <li>second item third subitem</li>
+        </ul>
+        <!-- Here is the closing </li> tag -->
+    </li>
+    <li>third item</li>
+</ul>
+
+<!-- Ordered List Inside Unordered List -->
+<ul>
+    <li>first item</li>
+    <li>
+        second item
+        <!-- The closing </li> tag is not placed here -->
+        <ol>
+            <li>second item first subitem</li>
+            <li>second item second subitem</li>
+            <li>second item third subitem</li>
+        </ol>
+    </li>
+    <li>third item</li>
+</ul>
+
+<!-- ORDERED LISTS -->
+
+<!-- ROMAN NUMERAL TYPE EXAMPLE -->
+<ol type="i">
+    <li>Introduction</li>
+    <li>List of Grievances</li>
+    <li>Conclusion</li>
+</ol>
+
+<!-- START ATTRIBUTE -->
+<p>Finishing places of contestants not in the winner's circle:</p>
+
+<ol start="4">
+    <li>Speedwalk Stu</li>
+    <li>Saunterin' Sam</li>
+    <li>Slowpoke Rodriguez</li>
+</ol>
+
+<!-- Unordered List Inside Ordered List -->
+
+<ol>
+    <li>first item</li>
+    <li>
+      second item
+      <!-- closing </li> tag is not here! -->
+      <ul>
+        <li>second item first subitem</li>
+        <li>second item second subitem</li>
+        <li>second item third subitem</li>
+      </ul>
+    </li>
+    <!-- Here's the closing </li> tag -->
+    <li>third item</li>
+  </ol>
